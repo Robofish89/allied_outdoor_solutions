@@ -5,22 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Convince Allied Outdoor Solutions leadership that hiring Gerhard means immediate, tangible AI-driven improvements to their business — from quick wins they'll see in weeks to transformative systems that compound over months.
-**Current focus:** Phase 1 complete — moving to Phase 2
+**Current focus:** Phase 2 complete — moving to Phase 3
 
 ## Current Position
 
-Phase: 1 of 5 (Foundation & Design System) — COMPLETE
-Plan: 2 of 2 in current phase — COMPLETE
-Status: Phase 1 complete, ready for Phase 2
-Last activity: 2026-02-10 — Completed 01-02-PLAN.md (layout & deploy)
+Phase: 2 of 5 (Content & Cards) — COMPLETE
+Plan: 1 of 1 in current phase — COMPLETE
+Status: Phase 2 complete, ready for Phase 3
+Last activity: 2026-02-10 — Completed 02-01-PLAN.md (content cards)
 
-Progress: ██░░░░░░░░ 20%
+Progress: ███░░░░░░░ 30%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: ~8 min
+- Total plans completed: 3
+- Average duration: ~6 min
 - Total execution time: ~0.3 hours
 
 **By Phase:**
@@ -28,10 +28,11 @@ Progress: ██░░░░░░░░ 20%
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation | 2/2 | ~16 min | ~8 min |
+| 02-content-cards | 1/1 | ~2 min | ~2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (6 min), 01-02 (~10 min)
-- Trend: Stable
+- Last 5 plans: 01-01 (6 min), 01-02 (~10 min), 02-01 (~2 min)
+- Trend: Accelerating
 
 ## Accumulated Context
 
@@ -48,6 +49,9 @@ Recent decisions affecting current work:
 | 01-02 | No vercel.json needed | Vercel auto-detects Next.js project settings |
 | 01-02 | Alternating cream/white section backgrounds | Visual separation between categories without borders |
 | 01-02 | Full viewport hero with centered serif heading | Maximum impact landing experience, luxury feel |
+| 02-01 | Single-column card layout instead of grid | Cards are content-heavy, grid would cramp readability |
+| 02-01 | Allied context as left-bordered italic paragraph | Visually distinguishes Allied-specific callout from main description |
+| 02-01 | Inline SVG arrows for process flow | No external icon library dependency |
 
 ### Deployment
 
@@ -66,5 +70,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: Completed 01-02-PLAN.md (Phase 1 complete)
+Stopped at: Completed 02-01-PLAN.md (Phase 2 complete)
 Resume file: None

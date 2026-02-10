@@ -15,7 +15,7 @@ None
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
 - [x] **Phase 1: Foundation & Design System** - Scaffolding, design tokens, typed data model, Vercel skeleton deploy
-- [ ] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
+- [x] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
 - [ ] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
 - [ ] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
 - [ ] **Phase 5: Polish & Deploy** - Mobile verification, OG tags, performance, final Vercel deploy
@@ -38,10 +38,10 @@ Plans:
 **Depends on**: Phase 1
 **Requirements**: SITE-04, SITE-07, CARD-01, CARD-02, CARD-03, CARD-04, UC-01, UC-02, UC-03, UC-04, UC-05, UC-06, UC-07, UC-08, UC-09, UC-10
 **Research**: Unlikely (content writing + standard component patterns)
-**Plans**: TBD
+**Plans**: 1
 
 Plans:
-- [ ] 02-01: TBD
+- [x] 02-01: Build UseCaseCard component and wire all 10 cards into page
 
 ### Phase 3: Animations
 **Goal**: Scroll-triggered staggered card entrances, hero entrance animation, animated process visuals on cards, all subtle and professional
@@ -83,7 +83,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|---------------|--------|-----------|
 | 1. Foundation & Design System | 2/2 | Complete | 2026-02-10 |
-| 2. Content & Cards | 0/TBD | Not started | - |
+| 2. Content & Cards | 1/1 | Complete | 2026-02-10 |
 | 3. Animations | 0/TBD | Not started | - |
 | 4. PDF Export | 0/TBD | Not started | - |
 | 5. Polish & Deploy | 0/TBD | Not started | - |
