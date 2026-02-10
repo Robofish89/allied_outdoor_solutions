@@ -104,10 +104,10 @@ Which phases cover which requirements. Updated by create-roadmap.
 | ANIM-01 | Phase 3 | Complete |
 | ANIM-02 | Phase 3 | Complete |
 | ANIM-03 | Phase 3 | Complete |
-| PDF-01 | Phase 4 | Pending |
-| PDF-02 | Phase 4 | Pending |
-| PDF-03 | Phase 4 | Pending |
-| PDF-04 | Phase 4 | Pending |
+| PDF-01 | Phase 4 | Complete |
+| PDF-02 | Phase 4 | Complete |
+| PDF-03 | Phase 4 | Complete |
+| PDF-04 | Phase 4 | Complete |
 | UC-01 | Phase 2 | Complete |
 | UC-02 | Phase 2 | Complete |
 | UC-03 | Phase 2 | Complete |
