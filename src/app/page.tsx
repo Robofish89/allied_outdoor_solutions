@@ -1,8 +1,11 @@
+"use client";
+
 import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
 import SectionWrapper from "@/components/layout/SectionWrapper";
 import Footer from "@/components/layout/Footer";
 import UseCaseCard from "@/components/cards/UseCaseCard";
+import { StaggerChildren, StaggerItem } from "@/components/animated/StaggerChildren";
 import { CATEGORY_SECTIONS, USE_CASES } from "@/data/use-cases";
 
 const sectionIds: Record<string, string> = {
@@ -25,13 +28,15 @@ export default function Home() {
           subtitle={section.tagline}
           category={section.category}
         >
-          <div className="space-y-6 md:space-y-8">
+          <StaggerChildren className="space-y-6 md:space-y-8">
             {USE_CASES.filter(
               (uc) => uc.timeline === section.category
             ).map((uc) => (
-              <UseCaseCard key={uc.id} useCase={uc} />
+              <StaggerItem key={uc.id}>
+                <UseCaseCard useCase={uc} />
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerChildren>
         </SectionWrapper>
       ))}
 

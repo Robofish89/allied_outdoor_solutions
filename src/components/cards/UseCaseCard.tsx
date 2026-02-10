@@ -1,80 +1,8 @@
-import { UseCase, ProcessStep } from "@/types/use-case";
+import { UseCase } from "@/types/use-case";
+import AnimatedProcessFlow from "@/components/animated/AnimatedProcessFlow";
 
 interface UseCaseCardProps {
   useCase: UseCase;
-}
-
-function StepDot({ type }: { type: ProcessStep["type"] }) {
-  const colors: Record<ProcessStep["type"], string> = {
-    input: "bg-allied-slate",
-    ai: "bg-allied-gold",
-    output: "bg-allied-navy",
-  };
-
-  return (
-    <span
-      className={`inline-block h-3 w-3 rounded-full ${colors[type]}`}
-      aria-hidden="true"
-    />
-  );
-}
-
-function ProcessFlowArrow() {
-  return (
-    <svg
-      width="32"
-      height="16"
-      viewBox="0 0 32 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="shrink-0 text-allied-slate/40"
-      aria-hidden="true"
-    >
-      <line
-        x1="0"
-        y1="8"
-        x2="24"
-        y2="8"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <polyline
-        points="20,3 26,8 20,13"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        fill="none"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function ProcessFlow({ steps }: { steps: ProcessStep[] }) {
-  return (
-    <div className="mt-6">
-      <p className="mb-3 font-sans text-xs font-semibold uppercase tracking-widest text-allied-slate/60">
-        How It Works
-      </p>
-      <div className="flex items-start gap-2 md:gap-4">
-        {steps.map((step, index) => (
-          <div key={index} className="contents">
-            <div className="flex min-w-0 flex-1 flex-col items-center gap-2 text-center">
-              <StepDot type={step.type} />
-              <span className="font-sans text-xs leading-snug text-allied-charcoal/80 md:text-sm">
-                {step.label}
-              </span>
-            </div>
-            {index < steps.length - 1 && (
-              <div className="mt-1 flex shrink-0 items-start pt-0.5">
-                <ProcessFlowArrow />
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
 }
 
 export default function UseCaseCard({ useCase }: UseCaseCardProps) {
@@ -106,7 +34,7 @@ export default function UseCaseCard({ useCase }: UseCaseCardProps) {
       </div>
 
       {/* Process Flow Visual */}
-      <ProcessFlow steps={useCase.processSteps} />
+      <AnimatedProcessFlow steps={useCase.processSteps} />
 
       {/* Tools/Tech Badges */}
       <div className="mt-6">
