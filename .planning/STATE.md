@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Convince Allied Outdoor Solutions leadership that hiring Gerhard means immediate, tangible AI-driven improvements to their business — from quick wins they'll see in weeks to transformative systems that compound over months.
-**Current focus:** Phase 4 complete — moving to Phase 5
+**Current focus:** Phase 5 — awaiting human verification checkpoint
 
 ## Current Position
 
-Phase: 4 of 5 (PDF Export) — COMPLETE
-Plan: 1 of 1 in current phase — COMPLETE
-Status: Phase 4 complete, ready for Phase 5
-Last activity: 2026-02-10 — Completed 04-01-PLAN.md (PDF export)
+Phase: 5 of 5 (Polish & Deploy)
+Plan: 1 of 1 in current phase — awaiting checkpoint verification
+Status: Auto tasks complete, checkpoint pending
+Last activity: 2026-02-10 — Completed 05-01-PLAN.md auto tasks (OG tags + deploy)
 
-Progress: ████████░░ 80%
+Progress: ██████████ 100% (auto tasks)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
+- Total plans completed: 6
 - Average duration: ~5 min
-- Total execution time: ~0.4 hours
+- Total execution time: ~0.5 hours
 
 **By Phase:**
 
@@ -31,9 +31,10 @@ Progress: ████████░░ 80%
 | 02-content-cards | 1/1 | ~2 min | ~2 min |
 | 03-animations | 1/1 | ~4 min | ~4 min |
 | 04-pdf-export | 1/1 | ~3 min | ~3 min |
+| 05-polish-deploy | 1/1 | ~4 min | ~4 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (~10 min), 02-01 (~2 min), 03-01 (~4 min), 04-01 (~3 min)
+- Last 5 plans: 02-01 (~2 min), 03-01 (~4 min), 04-01 (~3 min), 05-01 (~4 min)
 - Trend: Fast and consistent
 
 ## Accumulated Context
@@ -60,12 +61,16 @@ Recent decisions affecting current work:
 | 04-01 | Skipped esmExternals: "loose" config | Turbopack in Next.js 16 doesn't support it; client-only dynamic import suffices |
 | 04-01 | Split PDF button into outer/inner components | Clean SSR boundary for ssr:false dynamic import |
 | 04-01 | Libre Baskerville from Google Fonts CDN for PDF | System Georgia not available in PDF rendering |
+| 05-01 | Next.js file-based opengraph-image.tsx for OG image | Dynamic generation, no static asset to maintain |
+| 05-01 | No separate twitter-image.tsx | Turbopack disallows re-exported route config; Next.js auto-uses OG image |
+| 05-01 | metadataBase set to production Vercel URL | Resolves social image URL resolution warning |
 
 ### Deployment
 
 - **Vercel URL:** https://alliedoutdoorsolutions.vercel.app
 - **Vercel project:** gerhards-projects-ef4ffd0d/allied_outdoor_solutions
-- **Status:** Skeleton deployed, auto-detected Next.js
+- **Status:** Production deployed with OG tags and dynamic OG image
+- **Response time:** 1.28s (verified under 2s target)
 
 ### Pending Todos
 
@@ -78,5 +83,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: Completed 04-01-PLAN.md (Phase 4 complete)
+Stopped at: 05-01 checkpoint (awaiting human verification of production site)
 Resume file: None
