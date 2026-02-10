@@ -1,20 +1,44 @@
-import Image from "next/image";
+import Header from "@/components/layout/Header";
+import Hero from "@/components/layout/Hero";
+import SectionWrapper from "@/components/layout/SectionWrapper";
+import Footer from "@/components/layout/Footer";
+import { CATEGORY_SECTIONS } from "@/data/use-cases";
+
+const sectionIds: Record<string, string> = {
+  "quick-win": "quick-wins",
+  "medium-term": "medium-term",
+  strategic: "strategic",
+};
+
+const sectionPlaceholders: Record<string, string> = {
+  "quick-win": "3 solutions coming in Phase 2",
+  "medium-term": "4 solutions coming in Phase 2",
+  strategic: "3 solutions coming in Phase 2",
+};
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-allied-navy px-6 text-center">
-      <Image
-        src="/allied-logo.svg"
-        alt="Allied Outdoor Solutions"
-        width={200}
-        height={60}
-        priority
-        className="mb-8"
-      />
-      <h1 className="max-w-2xl text-4xl font-bold leading-tight tracking-tight text-allied-cream md:text-5xl lg:text-6xl">
-        Allied Outdoor Solutions
-      </h1>
-      <p className="mt-4 text-lg text-allied-gold">AI Strategy Showcase</p>
-    </main>
+    <>
+      <Header />
+      <Hero />
+
+      {CATEGORY_SECTIONS.map((section) => (
+        <SectionWrapper
+          key={section.category}
+          id={sectionIds[section.category]}
+          title={section.label}
+          subtitle={section.tagline}
+          category={section.category}
+        >
+          <div className="flex items-center justify-center rounded-2xl border-2 border-dashed border-allied-slate/20 py-20">
+            <p className="font-sans text-lg text-allied-slate/60">
+              {sectionPlaceholders[section.category]}
+            </p>
+          </div>
+        </SectionWrapper>
+      ))}
+
+      <Footer />
+    </>
   );
 }
