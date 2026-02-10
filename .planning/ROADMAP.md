@@ -27,10 +27,11 @@ None
 **Depends on**: Nothing (first phase)
 **Requirements**: SITE-01, SITE-03, SITE-05
 **Research**: Unlikely (established Next.js + Tailwind patterns, research STACK.md has exact setup)
-**Plans**: TBD
+**Plans**: 2
 
 Plans:
-- [ ] 01-01: TBD
+- [x] 01-01: Scaffold Next.js project with Allied design tokens and typed data model
+- [ ] 01-02: TBD
 
 ### Phase 2: Content & Cards
 **Goal**: All 10 AI use case cards with real Allied-specific content (Carvestone, markets, competitors), hero messaging, category organization (Quick Win / Medium / Strategic), footer CTA
@@ -81,7 +82,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|---------------|--------|-----------|
-| 1. Foundation & Design System | 0/TBD | Not started | - |
+| 1. Foundation & Design System | 1/2 | In progress | - |
 | 2. Content & Cards | 0/TBD | Not started | - |
 | 3. Animations | 0/TBD | Not started | - |
 | 4. PDF Export | 0/TBD | Not started | - |
