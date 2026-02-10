@@ -5,6 +5,7 @@ import {
   HeroSubtitle,
   HeroCTA,
 } from "@/components/animated/HeroEntrance";
+import PDFDownloadButton from "@/components/pdf/PDFDownloadButton";
 
 export default function Hero() {
   return (
@@ -26,7 +27,10 @@ export default function Hero() {
         </HeroSubtitle>
 
         <HeroCTA>
-          <div className="mt-16 flex flex-col items-center gap-2 text-allied-cream/60">
+          <div className="mt-12">
+            <PDFDownloadButton />
+          </div>
+          <div className="mt-6 flex flex-col items-center gap-2 text-allied-cream/60">
             <span className="text-sm font-sans tracking-widest uppercase">
               Explore Solutions
             </span>
