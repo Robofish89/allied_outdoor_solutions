@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Convince Allied Outdoor Solutions leadership that hiring Gerhard means immediate, tangible AI-driven improvements to their business — from quick wins they'll see in weeks to transformative systems that compound over months.
-**Current focus:** Phase 2 complete — moving to Phase 3
+**Current focus:** Phase 3 complete — moving to Phase 4
 
 ## Current Position
 
-Phase: 2 of 5 (Content & Cards) — COMPLETE
+Phase: 3 of 5 (Animations) — COMPLETE
 Plan: 1 of 1 in current phase — COMPLETE
-Status: Phase 2 complete, ready for Phase 3
-Last activity: 2026-02-10 — Completed 02-01-PLAN.md (content cards)
+Status: Phase 3 complete, ready for Phase 4
+Last activity: 2026-02-10 — Completed 03-01-PLAN.md (animations)
 
-Progress: ███░░░░░░░ 30%
+Progress: █████░░░░░ 50%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
+- Total plans completed: 4
 - Average duration: ~6 min
-- Total execution time: ~0.3 hours
+- Total execution time: ~0.4 hours
 
 **By Phase:**
 
@@ -29,10 +29,11 @@ Progress: ███░░░░░░░ 30%
 |-------|-------|-------|----------|
 | 01-foundation | 2/2 | ~16 min | ~8 min |
 | 02-content-cards | 1/1 | ~2 min | ~2 min |
+| 03-animations | 1/1 | ~4 min | ~4 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (6 min), 01-02 (~10 min), 02-01 (~2 min)
-- Trend: Accelerating
+- Last 5 plans: 01-01 (6 min), 01-02 (~10 min), 02-01 (~2 min), 03-01 (~4 min)
+- Trend: Fast and consistent
 
 ## Accumulated Context
 
@@ -52,6 +53,9 @@ Recent decisions affecting current work:
 | 02-01 | Single-column card layout instead of grid | Cards are content-heavy, grid would cramp readability |
 | 02-01 | Allied context as left-bordered italic paragraph | Visually distinguishes Allied-specific callout from main description |
 | 02-01 | Inline SVG arrows for process flow | No external icon library dependency |
+| 03-01 | Motion 12.x via motion/react import | SSR-safe, not legacy framer-motion |
+| 03-01 | Removed static ProcessFlow in favor of AnimatedProcessFlow | No dead code; animated version replicates exact same layout |
+| 03-01 | page.tsx and Hero.tsx marked "use client" | Required for animated child components |
 
 ### Deployment
 
@@ -61,7 +65,7 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
-None.
+- User wants to rearrange AI systems into proper timelines (not blocking current work)
 
 ### Blockers/Concerns
 
@@ -70,5 +74,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: Completed 02-01-PLAN.md (Phase 2 complete)
+Stopped at: Completed 03-01-PLAN.md (Phase 3 complete)
 Resume file: None

@@ -16,7 +16,7 @@ None
 
 - [x] **Phase 1: Foundation & Design System** - Scaffolding, design tokens, typed data model, Vercel skeleton deploy
 - [x] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
-- [ ] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
+- [x] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
 - [ ] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
 - [ ] **Phase 5: Polish & Deploy** - Mobile verification, OG tags, performance, final Vercel deploy
 
@@ -48,10 +48,10 @@ Plans:
 **Depends on**: Phase 2
 **Requirements**: CARD-05, ANIM-01, ANIM-02, ANIM-03
 **Research**: Unlikely (Motion 12.x patterns documented in research)
-**Plans**: TBD
+**Plans**: 1
 
 Plans:
-- [ ] 03-01: TBD
+- [x] 03-01: Install Motion, create animated wrappers, wire into Hero/cards/page
 
 ### Phase 4: PDF Export
 **Goal**: Downloadable PDF via button click — cover page + 10 use case pages with professional layout matching brand aesthetic, working on Vercel
@@ -84,6 +84,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|---------------|--------|-----------|
 | 1. Foundation & Design System | 2/2 | Complete | 2026-02-10 |
 | 2. Content & Cards | 1/1 | Complete | 2026-02-10 |
-| 3. Animations | 0/TBD | Not started | - |
+| 3. Animations | 1/1 | Complete | 2026-02-10 |
 | 4. PDF Export | 0/TBD | Not started | - |
 | 5. Polish & Deploy | 0/TBD | Not started | - |

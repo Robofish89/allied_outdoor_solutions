@@ -24,13 +24,13 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **CARD-02**: Each card shows title, description, implementation tools/tech badges, ROI estimate, and timeline category badge
 - [ ] **CARD-03**: Cards are organized into three sections: Quick Wins (1-2 weeks), Medium-term (1-3 months), Strategic (3-6 months)
 - [ ] **CARD-04**: Each card includes Allied-specific references (Carvestone, their markets, competitors by name)
-- [ ] **CARD-05**: Each card includes an animated process visual showing input → AI → output flow
+- [x] **CARD-05**: Each card includes an animated process visual showing input → AI → output flow
 
 ### Animations
 
-- [ ] **ANIM-01**: Cards have scroll-triggered entrance animations (staggered reveal)
-- [ ] **ANIM-02**: Hero section has entrance animation
-- [ ] **ANIM-03**: Animations are subtle and professional (not flashy or distracting)
+- [x] **ANIM-01**: Cards have scroll-triggered entrance animations (staggered reveal)
+- [x] **ANIM-02**: Hero section has entrance animation
+- [x] **ANIM-03**: Animations are subtle and professional (not flashy or distracting)
 
 ### PDF Export
 
@@ -100,10 +100,10 @@ Which phases cover which requirements. Updated by create-roadmap.
 | CARD-02 | Phase 2 | Complete |
 | CARD-03 | Phase 2 | Complete |
 | CARD-04 | Phase 2 | Complete |
-| CARD-05 | Phase 3 | Pending |
-| ANIM-01 | Phase 3 | Pending |
-| ANIM-02 | Phase 3 | Pending |
-| ANIM-03 | Phase 3 | Pending |
+| CARD-05 | Phase 3 | Complete |
+| ANIM-01 | Phase 3 | Complete |
+| ANIM-02 | Phase 3 | Complete |
+| ANIM-03 | Phase 3 | Complete |
 | PDF-01 | Phase 4 | Pending |
 | PDF-02 | Phase 4 | Pending |
 | PDF-03 | Phase 4 | Pending |
@@ -126,4 +126,4 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 ---
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after Phase 2 completion*
+*Last updated: 2026-02-10 after Phase 3 completion*
