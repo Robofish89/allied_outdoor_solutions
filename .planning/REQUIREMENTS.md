@@ -9,11 +9,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Website Structure
 
-- [ ] **SITE-01**: Site is responsive and mobile-first (works on phone, tablet, desktop)
+- [x] **SITE-01**: Site is responsive and mobile-first (works on phone, tablet, desktop)
 - [ ] **SITE-02**: Site loads in under 2 seconds on Vercel
-- [ ] **SITE-03**: Site uses luxury aesthetic (earth tones, generous whitespace, serif/sans-serif pairing)
+- [x] **SITE-03**: Site uses luxury aesthetic (earth tones, generous whitespace, serif/sans-serif pairing)
 - [ ] **SITE-04**: Hero section displays "Name the problem, I build the solution" messaging above the fold
-- [ ] **SITE-05**: Site is a single-page scroll with sections (Hero → Quick Wins → Medium-term → Strategic → Footer)
+- [x] **SITE-05**: Site is a single-page scroll with sections (Hero → Quick Wins → Medium-term → Strategic → Footer)
 - [ ] **SITE-06**: Site is deployed on Vercel with clean custom URL
 - [ ] **SITE-07**: Footer includes contact/CTA section for reaching Gerhard
 - [ ] **SITE-08**: OG meta tags configured for social sharing preview
@@ -88,11 +88,11 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SITE-01 | Phase 1 | Pending |
+| SITE-01 | Phase 1 | Complete |
 | SITE-02 | Phase 5 | Pending |
-| SITE-03 | Phase 1 | Pending |
+| SITE-03 | Phase 1 | Complete |
 | SITE-04 | Phase 2 | Pending |
-| SITE-05 | Phase 1 | Pending |
+| SITE-05 | Phase 1 | Complete |
 | SITE-06 | Phase 5 | Pending |
 | SITE-07 | Phase 2 | Pending |
 | SITE-08 | Phase 5 | Pending |
@@ -126,4 +126,4 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 ---
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after roadmap creation*
+*Last updated: 2026-02-10 after Phase 1 completion*

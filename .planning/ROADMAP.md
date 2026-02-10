@@ -14,7 +14,7 @@ None
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Foundation & Design System** - Scaffolding, design tokens, typed data model, Vercel skeleton deploy
+- [x] **Phase 1: Foundation & Design System** - Scaffolding, design tokens, typed data model, Vercel skeleton deploy
 - [ ] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
 - [ ] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
 - [ ] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
@@ -31,7 +31,7 @@ None
 
 Plans:
 - [x] 01-01: Scaffold Next.js project with Allied design tokens and typed data model
-- [ ] 01-02: TBD
+- [x] 01-02: Build responsive single-page layout and deploy skeleton to Vercel
 
 ### Phase 2: Content & Cards
 **Goal**: All 10 AI use case cards with real Allied-specific content (Carvestone, markets, competitors), hero messaging, category organization (Quick Win / Medium / Strategic), footer CTA
@@ -82,7 +82,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|---------------|--------|-----------|
-| 1. Foundation & Design System | 1/2 | In progress | - |
+| 1. Foundation & Design System | 2/2 | Complete | 2026-02-10 |
 | 2. Content & Cards | 0/TBD | Not started | - |
 | 3. Animations | 0/TBD | Not started | - |
 | 4. PDF Export | 0/TBD | Not started | - |
