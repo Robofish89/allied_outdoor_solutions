@@ -17,7 +17,7 @@ None
 - [x] **Phase 1: Foundation & Design System** - Scaffolding, design tokens, typed data model, Vercel skeleton deploy
 - [x] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
 - [x] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
-- [ ] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
+- [x] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
 - [ ] **Phase 5: Polish & Deploy** - Mobile verification, OG tags, performance, final Vercel deploy
 
 ## Phase Details
@@ -62,7 +62,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 04-01: TBD
+- [x] 04-01: Install @react-pdf/renderer, build PDF document and download button
 
 ### Phase 5: Polish & Deploy
 **Goal**: Production-ready site — fast loading, mobile-verified, OG tags for sharing, clean Vercel URL, PDF confirmed working on deployment
@@ -85,5 +85,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation & Design System | 2/2 | Complete | 2026-02-10 |
 | 2. Content & Cards | 1/1 | Complete | 2026-02-10 |
 | 3. Animations | 1/1 | Complete | 2026-02-10 |
-| 4. PDF Export | 0/TBD | Not started | - |
+| 4. PDF Export | 1/1 | Complete | 2026-02-10 |
 | 5. Polish & Deploy | 0/TBD | Not started | - |
