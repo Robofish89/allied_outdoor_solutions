@@ -18,7 +18,7 @@ None
 - [x] **Phase 2: Content & Cards** - All 10 use case cards with real Allied-specific content, hero section, categories
 - [x] **Phase 3: Animations** - Scroll-triggered card entrances, staggered grid, hero animation
 - [x] **Phase 4: PDF Export** - Downloadable PDF with cover page + 10 use case pages
-- [ ] **Phase 5: Polish & Deploy** - Mobile verification, OG tags, performance, final Vercel deploy
+- [x] **Phase 5: Polish & Deploy** - Mobile verification, OG tags, performance, final Vercel deploy
 
 ## Phase Details
 
@@ -72,7 +72,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 05-01: TBD
+- [x] 05-01: Add OG meta tags, verify performance, deploy production to Vercel
 
 ## Progress
 
@@ -86,4 +86,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Content & Cards | 1/1 | Complete | 2026-02-10 |
 | 3. Animations | 1/1 | Complete | 2026-02-10 |
 | 4. PDF Export | 1/1 | Complete | 2026-02-10 |
-| 5. Polish & Deploy | 0/TBD | Not started | - |
+| 5. Polish & Deploy | 1/1 | Complete | 2026-02-11 |
