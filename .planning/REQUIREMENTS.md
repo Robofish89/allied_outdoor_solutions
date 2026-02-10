@@ -91,15 +91,15 @@ Which phases cover which requirements. Updated by create-roadmap.
 | SITE-01 | Phase 1 | Complete |
 | SITE-02 | Phase 5 | Pending |
 | SITE-03 | Phase 1 | Complete |
-| SITE-04 | Phase 2 | Pending |
+| SITE-04 | Phase 2 | Complete |
 | SITE-05 | Phase 1 | Complete |
 | SITE-06 | Phase 5 | Pending |
-| SITE-07 | Phase 2 | Pending |
+| SITE-07 | Phase 2 | Complete |
 | SITE-08 | Phase 5 | Pending |
-| CARD-01 | Phase 2 | Pending |
-| CARD-02 | Phase 2 | Pending |
-| CARD-03 | Phase 2 | Pending |
-| CARD-04 | Phase 2 | Pending |
+| CARD-01 | Phase 2 | Complete |
+| CARD-02 | Phase 2 | Complete |
+| CARD-03 | Phase 2 | Complete |
+| CARD-04 | Phase 2 | Complete |
 | CARD-05 | Phase 3 | Pending |
 | ANIM-01 | Phase 3 | Pending |
 | ANIM-02 | Phase 3 | Pending |
@@ -108,16 +108,16 @@ Which phases cover which requirements. Updated by create-roadmap.
 | PDF-02 | Phase 4 | Pending |
 | PDF-03 | Phase 4 | Pending |
 | PDF-04 | Phase 4 | Pending |
-| UC-01 | Phase 2 | Pending |
-| UC-02 | Phase 2 | Pending |
-| UC-03 | Phase 2 | Pending |
-| UC-04 | Phase 2 | Pending |
-| UC-05 | Phase 2 | Pending |
-| UC-06 | Phase 2 | Pending |
-| UC-07 | Phase 2 | Pending |
-| UC-08 | Phase 2 | Pending |
-| UC-09 | Phase 2 | Pending |
-| UC-10 | Phase 2 | Pending |
+| UC-01 | Phase 2 | Complete |
+| UC-02 | Phase 2 | Complete |
+| UC-03 | Phase 2 | Complete |
+| UC-04 | Phase 2 | Complete |
+| UC-05 | Phase 2 | Complete |
+| UC-06 | Phase 2 | Complete |
+| UC-07 | Phase 2 | Complete |
+| UC-08 | Phase 2 | Complete |
+| UC-09 | Phase 2 | Complete |
+| UC-10 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 30 total
@@ -126,4 +126,4 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 ---
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after Phase 1 completion*
+*Last updated: 2026-02-10 after Phase 2 completion*
