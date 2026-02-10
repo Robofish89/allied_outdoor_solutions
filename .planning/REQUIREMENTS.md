@@ -88,42 +88,42 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SITE-01 | — | Pending |
-| SITE-02 | — | Pending |
-| SITE-03 | — | Pending |
-| SITE-04 | — | Pending |
-| SITE-05 | — | Pending |
-| SITE-06 | — | Pending |
-| SITE-07 | — | Pending |
-| SITE-08 | — | Pending |
-| CARD-01 | — | Pending |
-| CARD-02 | — | Pending |
-| CARD-03 | — | Pending |
-| CARD-04 | — | Pending |
-| CARD-05 | — | Pending |
-| ANIM-01 | — | Pending |
-| ANIM-02 | — | Pending |
-| ANIM-03 | — | Pending |
-| PDF-01 | — | Pending |
-| PDF-02 | — | Pending |
-| PDF-03 | — | Pending |
-| PDF-04 | — | Pending |
-| UC-01 | — | Pending |
-| UC-02 | — | Pending |
-| UC-03 | — | Pending |
-| UC-04 | — | Pending |
-| UC-05 | — | Pending |
-| UC-06 | — | Pending |
-| UC-07 | — | Pending |
-| UC-08 | — | Pending |
-| UC-09 | — | Pending |
-| UC-10 | — | Pending |
+| SITE-01 | Phase 1 | Pending |
+| SITE-02 | Phase 5 | Pending |
+| SITE-03 | Phase 1 | Pending |
+| SITE-04 | Phase 2 | Pending |
+| SITE-05 | Phase 1 | Pending |
+| SITE-06 | Phase 5 | Pending |
+| SITE-07 | Phase 2 | Pending |
+| SITE-08 | Phase 5 | Pending |
+| CARD-01 | Phase 2 | Pending |
+| CARD-02 | Phase 2 | Pending |
+| CARD-03 | Phase 2 | Pending |
+| CARD-04 | Phase 2 | Pending |
+| CARD-05 | Phase 3 | Pending |
+| ANIM-01 | Phase 3 | Pending |
+| ANIM-02 | Phase 3 | Pending |
+| ANIM-03 | Phase 3 | Pending |
+| PDF-01 | Phase 4 | Pending |
+| PDF-02 | Phase 4 | Pending |
+| PDF-03 | Phase 4 | Pending |
+| PDF-04 | Phase 4 | Pending |
+| UC-01 | Phase 2 | Pending |
+| UC-02 | Phase 2 | Pending |
+| UC-03 | Phase 2 | Pending |
+| UC-04 | Phase 2 | Pending |
+| UC-05 | Phase 2 | Pending |
+| UC-06 | Phase 2 | Pending |
+| UC-07 | Phase 2 | Pending |
+| UC-08 | Phase 2 | Pending |
+| UC-09 | Phase 2 | Pending |
+| UC-10 | Phase 2 | Pending |
 
 **Coverage:**
 - v1 requirements: 30 total
-- Mapped to phases: 0
-- Unmapped: 30 ⚠️
+- Mapped to phases: 30
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after initial definition*
+*Last updated: 2026-02-10 after roadmap creation*
