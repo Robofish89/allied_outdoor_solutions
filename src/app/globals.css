@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Allied Outdoor Solutions — Design Tokens (Tailwind CSS v4) */
+@theme inline {
+  /* Brand Colors */
+  --color-allied-navy: #0F2B46;
+  --color-allied-cream: #F5F0EB;
+  --color-allied-gold: #C4A35A;
+  --color-allied-charcoal: #2D2D2D;
+  --color-allied-slate: #64748B;
+  --color-allied-white: #FFFFFF;
+
+  /* Font Families */
+  --font-serif: Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* CSS Custom Properties (for easy reference outside Tailwind) */
+:root {
+  --allied-navy: #0F2B46;
+  --allied-cream: #F5F0EB;
+  --allied-gold: #C4A35A;
+  --allied-charcoal: #2D2D2D;
+  --allied-slate: #64748B;
+  --allied-white: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--allied-cream);
+  color: var(--allied-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use serif font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Section padding utility */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
