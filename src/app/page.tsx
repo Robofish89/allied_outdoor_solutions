@@ -33,7 +33,7 @@ export default function Home() {
               (uc) => uc.timeline === section.category
             ).map((uc) => (
               <StaggerItem key={uc.id}>
-                <UseCaseCard useCase={uc} />
+                <UseCaseCard useCase={uc} className={section.category === "medium-term" ? "bg-allied-cream" : "bg-white"} />
               </StaggerItem>
             ))}
           </StaggerChildren>

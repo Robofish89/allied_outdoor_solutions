@@ -3,11 +3,12 @@ import AnimatedProcessFlow from "@/components/animated/AnimatedProcessFlow";
 
 interface UseCaseCardProps {
   useCase: UseCase;
+  className?: string;
 }
 
-export default function UseCaseCard({ useCase }: UseCaseCardProps) {
+export default function UseCaseCard({ useCase, className }: UseCaseCardProps) {
   return (
-    <article className="rounded-2xl bg-white p-6 shadow-sm md:p-8">
+    <article className={`rounded-2xl p-6 shadow-sm md:p-8 ${className ?? "bg-white"}`}>
       {/* Header: Title + Subtitle + Timeline Badge */}
       <div className="mb-5">
         <div className="mb-2 flex flex-wrap items-center gap-3">

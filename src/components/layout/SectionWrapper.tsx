@@ -10,9 +10,9 @@ interface SectionWrapperProps {
 }
 
 const categoryTimelines: Record<TimelineCategory, string> = {
-  "quick-win": "1-2 Weeks",
-  "medium-term": "1-3 Months",
-  strategic: "3-6 Months",
+  "quick-win": "1-4 Weeks",
+  "medium-term": "1-2 Months",
+  strategic: "2-4 Months",
 };
 
 const categoryBackgrounds: Record<TimelineCategory, string> = {
